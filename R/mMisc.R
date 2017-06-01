@@ -185,9 +185,9 @@ col2hex = function(basecol, achannel = "") {
 #' @examples
 #' lq_frame = lq(data)
 lq = function(d) {
-	data = eval(d)
-	props = sweep(d, 1, apply(d, 1, sum), "/")
-	marsum = apply(d, 2, sum)
+	D = eval(d)
+	props = sweep(D, 1, apply(D, 1, sum), "/")
+	marsum = apply(D, 2, sum)
 	marprops = marsum / sum(marsum)
 
 	sweep(props, 2, marprops, "/")
