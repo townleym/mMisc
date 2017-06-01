@@ -1,0 +1,9 @@
+Package: mMisc
+Title: Matt Miscellaneous
+Version: 0.0.0.9000
+Authors@R: person("Matthew", "Townley", email = "townleym@gmail.com", role = c("aut", "cre"))
+Description: An ever-growing collection of miscelaneous convenience functions.
+Depends: R (>= 3.3.3)
+License: "CC BY-SA"
+Encoding: UTF-8
+LazyData: true
